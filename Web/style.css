@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background-container {
+    position: relative;
+    height: 100vh;
+    background: url(SRC/Images/Gadget.jpg);
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.text-container h3 {
+    font-size: 3em;
+}
+
+.text-container p {
+    font-size: 1.5em;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e0f7fa;
+    height: 50px;
+    padding: 10px;
+}
+
+.nav h3 {
+    color: #2c3e50;
+    display: flex;
+    justify-content: left;
+}
+
+.nav a {
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: rgb(81, 149, 238);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.au-nav {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2c3e50;
+    height: 50px;
+    padding: 10px;
+}
+
+.au-nav h3 {
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+
+.au-nav a {
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.au-nav a:hover {
+    text-decoration: underline;
+    color: rgb(81, 149, 238);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.about-us h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.about-us p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.p {
+    max-width: 600px;
+    margin-right: 20px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #007BFF;
+    line-height: 1.6;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px
+}
+
+.au-image {
+    max-width: 150px;
+    margin-right: 1000px;
+    padding-top: 50px;
+}
+
+.webname {
+    text-align: left;
+}
+
+.logo {
+    padding-right: 1250px;
+}
+
+.au-body {
+    background-color: #f4f4f4;
+}
+
+.product-nav {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #228b22;
+    height: 50px;
+    padding: 10px;
+}
+
+.product-nav h3 {
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+
+.product-nav a {
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.product-nav a:hover {
+    text-decoration: underline;
+    color: rgb(81, 149, 238);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.product-body {
+    background-color: #fffff0;
+}
+
+.iphone-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.iphone-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.iphone-image {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 3px solid #008080;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.iphone-image:hover {
+    transform: scale(1.05);
+}
+
+.lenovo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.lenovo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.lenovo-image {
+    max-width: 150px;
+    margin-right: 20px;
+    margin-left: 70px;
+    border-radius: 8px;
+    border: 3px solid #008080;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.lenovo-image:hover {
+    transform: scale(1.05);
+}
+
+.smartwatch-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.smartwatch-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.smartwatch-image {
+    max-width: 150px;
+    margin-right: 20px;
+    margin-left: 120px;
+    border-radius: 8px;
+    border: 3px solid #008080;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.smartwatch-image:hover {
+    transform: scale(1.05);
+}
+
+.contact-nav {
+    display: felx;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-footer {
+    padding: 10px;
+    background-color: rgb(31, 29, 29);
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+}
+
+footer a {
+    color: white;
+    font-size: 25px;
+}
